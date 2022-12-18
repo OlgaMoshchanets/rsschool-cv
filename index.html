@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-ul">
+                    <li class="nav-item">
+                        <a href="#aboute-me" class="nav-link">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacts" class="nav-link">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#strengths" class="nav-link">My strengths</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#code" class="nav-link">Code Example</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#education" class="nav-link">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#languages" class="nav-link">Languages</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="about" id="aboute-me">
+                <img class="about__img" src="img/ava.jpg" alt="photo" >
+                <div class="about__item item">
+                    <h1 class="title-main">Olga Moshchanets</h1>
+                    <p class="text">I learn JS and I want work Front-End Developer in the future. </p>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="contacts-ul">
+                    <li class="contacts-item"><span>Location:</span> Samara, Russia</li>
+                    <li class="contacts-item"><span>Phone:</span> +7 927 6083 082</li>
+                    <li class="contacts-item"><span>E-mail:</span> o.moshchanets@gmail.com</li>
+                    <li class="contacts-item"><span>GitHub:</span> OlgaMoshchanets</li>
+                    <li class="contacts-item"><span>Discord:</span> Olga (Olga Moshchanets#1308)</li>
+                </ul>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="skills-ul">
+                    <li class="skills-item">HTML</li>
+                    <li class="skills-item">CSS</li>
+                    <li class="skills-item">JavaScript (Basic)</li>
+                    <li class="skills-item">Git/GitLab</li>
+                </ul>
+            </section>
+            <section class="section" id="strengths">
+                <h2 class="section-title">My strengths</h2>
+                <ul class="strengths-ul">
+                    <li class="strengths-item">Quick Learner</li>
+                    <li class="strengths-item">Team play</li>
+                    <li class="strengths-item">Diligence</li>
+                    <li class="strengths-item">Hardworking</li>
+                    <li class="strengths-item">Sociable</li>
+                </ul>
+            </section>
+            <section class="section" id="experience">
+                <h2 class="section-title">Experience</h2>
+                <a class="link" href="https://OlgaMoshchanets.github.io/rsschool-cv/">My CV</a>
+                <p class="text">Just this so far.</p>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code example</h2>
+                <pre class="code">
+                    <code>
+                        function spinWords(string){
+                            let arr = string.split(' ');
+                            return arr.map(item => 
+                            item.length >= 5 ? item.split('').reverse().join('') : item).join(" ");
+                        }
+                        
+                        console.log(spinWords("This is rehtona test"));
+                    </code>
+                </pre>
+            </section>
+            
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p class="text"><span>University:</span> Samara State Aerospase University</p>
+                <a href="https://www.youtube.com/playlist?list=PLawfWYMUziZqyUL5QDLVbe3j5BKWj42E5" class="link">CS50</a>
+            </section>
+            <section class="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="languages-ul">
+                    <li class="item-li"><span>Russian</span> - native speaker</li>
+                    <li class="item-li"><span>English</span> - A2</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <nav class="footer-nav">
+                <ul class="footer-item">
+                    <li class="footer-li">
+                        <a href="https://github.com/OlgaMoshchanets" class="link" target="_blank">
+                            <img src="assets/git_icon.png" alt="Git icon" width="82" >
+                        </a>
+                        
+                    </li>
+                    <li class="footer-li footer-text">2022</li>
+                    <li class="footer-li">
+                        <a href="https://rs.school/js-stage0/" class="link" target="_blank">
+                            <img src="assets/rs_school_js.svg" alt="RS School icon" width="84">
+                        </a>
+                        
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
