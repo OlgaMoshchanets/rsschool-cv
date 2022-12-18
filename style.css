@@ -22,13 +22,13 @@ a:active {
 
 /* Links */
 
-a, a:link, a:visited  {
+a, a:link, a:visited {
     /* color: inherit; */
     text-decoration: none;
     /* display: inline-block; */
 }
 
-a:hover  {
+a:hover {
     /* color: inherit; */
     text-decoration: none;
 }
@@ -44,9 +44,9 @@ h1, h2, h3, h4, h5, h6, p {
 	font-weight: inherit;
 }
 
-ul, ul li {
+/* ul, ul li {
 	list-style: none;
-}
+} */
 
 img {
 	vertical-align: top;
@@ -100,3 +100,178 @@ legend {
 	display: block;
 }
 /*=========================================*/
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: rgb(243, 241, 221);
+  }
+
+.header {
+	background-color: rgb(211, 241, 218);
+}
+
+.container {
+	max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav {
+}
+
+.nav-ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.nav-item {
+	margin-right: 15px;
+	list-style: none;
+}
+
+.nav-link {
+	font-size: 18px;
+	font-weight: 600;
+	padding: 0 10px;
+	line-height: 50px;
+ 	color: rgb(23, 32, 24);
+	transition: 0.3s;
+}
+
+a:hover {
+	color: rgb(23, 170, 60);
+	text-decoration: underline;
+}
+
+/* ================================= */
+
+.main {
+}
+
+.main-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.about {
+	display: flex;
+	width: 50%;
+	justify-content: center;
+	padding-top: 0;
+	/* border-right: 2px solid rgb(33, 70, 42); */
+}
+
+.section {
+	width:  50%;
+}
+
+.about__img {
+	max-width: 30%;
+	max-height: 300px;
+
+}
+
+.about__item {
+	margin: 10px 15px;
+}
+
+.item {
+}
+
+.title-main {
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 10px;
+	color: rgb(23, 32, 24);
+}
+
+.text {
+	font-size: 16px;
+	font-weight: 400;
+	color: rgb(29, 39, 30);
+	line-height: 150%;
+	margin-top: 15px;
+}
+/* ================================== */
+
+.section-title {
+	font-size: 23px;
+	font-weight: bold;
+	margin-top: 15px;
+	color: rgb(23, 32, 24);
+}
+
+.contacts-ul {}
+
+.contacts-item {
+	font-size: 16px;
+	font-weight: 400;
+	color: rgb(29, 39, 30);
+	margin-top: 15px;
+}
+
+span {
+	font-weight: 600;
+	color: rgb(33, 70, 42);
+}
+
+.skills-item {
+	font-size: 16px;
+	font-weight: 400;
+	color:  rgb(29, 39, 30);
+	margin-top: 15px;
+
+}
+
+.strengths-item {
+	font-size: 16px;
+	font-weight: 400;
+	color: rgb(29, 39, 30);
+	margin-top: 15px;
+}
+
+.link {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 50px;
+ 	color: rgb(23, 32, 24);
+	transition: 0.3s;
+}
+
+a:hover {
+	color: rgb(23, 170, 60);
+}
+
+.item-li {
+	font-size: 16px;
+	font-weight: 400;
+	color: rgb(29, 39, 30);
+	margin-top: 15px;
+}
+
+.footer {
+	background-color: rgb(211, 241, 218);
+}
+
+.footer-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-li {
+	list-style: none;
+}
+
+.footer-text {
+	font-size: 25px;
+	font-weight: 900;
+}
+
+@media (max-width: 768px) {
+	.section {
+	  width: 100%;
+	}
+}
